@@ -1,36 +1,24 @@
-# URBANCART
-# **UrbanCart – A Modern E-Commerce Platform**
+# Ecommerce-Website [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+The *Planet Shopify* is a ecommerce website.Developed using php in backend and mysql database and used html and bootstrap in frontend.
+Also used [formspree](https://formspree.io) in contact form.
 
-## **Overview**
-**ShopSphere** is a full-featured e-commerce platform designed to deliver a seamless and engaging online shopping experience. Built with a robust tech stack, including **React.js**, **Node.js**, **Express.js**, and **MongoDB**, ShopSphere enables users to **browse products**, **add items to their cart**, **complete purchases securely**, and **track orders effortlessly**. The platform emphasizes **user-friendly design**, **scalability**, and **performance optimization** to cater to businesses of all sizes.
+## Technologies
+- [PHP](https://www.php.net/docs.php)
+- [Bootstrap](https://getbootstrap.com)
+- [MySQL](https://www.mysql.com)
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
 
-## **Motivation**
-The e-commerce landscape is rapidly evolving, with consumers expecting intuitive interfaces, fast load times, and secure transactions. Developing ShopSphere serves as an opportunity to:
-- **Implement core e-commerce functionalities** such as product management, user authentication, and payment processing.
-- **Enhance user experience (UX)** through responsive design and smooth navigation.
-- **Explore integration with third-party services** for features like email notifications and analytics.
+[view screenshots](https://winston-dsouza.github.io/#projects)
 
-## **Key Features**
-✔ **User Authentication** – Secure registration and login system to protect user data.
-✔ **Product Management** – Admin interface to add, edit, and remove products with ease.
-✔ **Shopping Cart & Checkout** – Intuitive cart system with real-time updates and streamlined checkout process.
-✔ **Payment Integration** – Secure payment processing through gateways like Stripe or PayPal.
-✔ **Order Tracking** – Users can view their order history and track current orders.
-✔ **Responsive Design** – Optimized for devices of all sizes, ensuring a consistent experience.
-✔ **Search & Filtering** – Advanced search functionality with filters to enhance product discovery.
-✔ **Reviews & Ratings** – Customers can leave feedback, fostering trust and community engagement.
+![index](https://github.com/winston-dsouza/winston-dsouza.github.io/blob/master/images/ecom/productgif.gif)
 
-## **Tech Stack**
-- **Frontend**: React.js, Redux, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
-- **Payment Processing**: Stripe API / PayPal SDK
-- **Deployment**: Docker, AWS/GCP
+## Set Up Instructions For Running Website
+- Start the Apache and MySQL modules using the **XAMPP** controller.
+- Open the **phpMyAdmin** and create a database **"ecommerce"**. 
+- Import the **ecommerce.sql** file present in the zip folder.
+- Open the htdocs folder in the xampp folder. Copy paste the folder **Planet-Shopify-ecommerce-website**.
+- Open the browser (chrome), type *localhost/Planet-Shopify-ecommerce-website* and you should see the index page of the website.
 
-## **Future Enhancements**
-🔹 **AI-Powered Recommendations** – Personalize user experience with machine learning algorithms.
-🔹 **Multi-Language Support** – Cater to a global audience by offering content in multiple languages.
-🔹 **Mobile Application** – Develop native mobile apps to reach users on various platforms.
-🔹 **Subscription Services** – Implement recurring billing for subscription-based product.
 
+*Note: In about.php in this [line](https://github.com/winston-dsouza/Planet-Shopify-ecommerce-website/blob/master/about.php#L71) enter your email* and activate the form
